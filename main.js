@@ -114,9 +114,9 @@ document.getElementById('displayid').value+=val;
             document.getElementById('displayid').value=divide(a,b);
         }
     }
-    else if(numop[2]=="%"){
+    else if(numop[4]==" % "){
         var a=parseInt(numop[0],10);
-        var b=parseInt(numop[1],10);
+        var b=parseInt(numop[3],10);
         document.getElementById('displayid').value=perc(a,b).toFixed(2);
     }
     else if(ar[0]=="abs"){
