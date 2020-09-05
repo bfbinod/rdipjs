@@ -1,0 +1,55 @@
+h1{
+	font-family: 'Balsamiq Sans', cursive;
+	color: #000066;
+}
+p{
+	font-family: 'Long Cang', cursive;
+	color: #ff3300;
+	size: 20rem;
+	
+    border-left: 6px solid red;
+    background-color: lightgrey;
+
+ 
+}
+input[type=text] {
+  background-color: #3CBC8D;
+  color: white;
+}
+input[type=submit] {
+  color: solid black;
+}
+input[type=submit]:hover {
+	background-color:#ff3300 ;
+     color: white;
+}
+body{
+	background-image: url("images/task3_body.jpg");
+	background-repeat: repeat;
+}
+.container{
+	display: flex;
+}
+
+#container_pal{
+	background-image: url("images/task3_pal.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+	width:580px;
+	border:4px solid black;
+	border-style: dotted solid double dashed;
+	margin-left: 300px;
+	margin-top: 300px;
+
+}
+#container_ana{
+	background-image: url("images/task3_ana.jpeg");
+	background-repeat: no-repeat;
+	text-align: center;
+	width:580px;
+	border:4px solid black;
+	border-style: dotted solid double dashed;
+	margin-left: 100px;
+	margin-top: 300px;
+
+}

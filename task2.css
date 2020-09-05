@@ -1,0 +1,56 @@
+img.iiith{
+	 	width: 150px;
+	 	height: 80px;
+	 }	
+	 div#rdiplink{
+	 	margin-left: 1670px;
+     }
+     h1#rdip{
+     	margin-top: 0px;
+     }
+	 div.head{
+	 	width:all;
+	 	height: 80px;
+	 	display: flex;
+	 	padding-bottom: 20px;
+	 }
+	 div.navbar ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+        margin-bottom: 40px;
+        }
+
+     div.navbar li{
+        float: left;
+        }
+
+     div.navbar li a {
+         display: block;
+         color: #d6ffff;
+         text-align: center;
+         padding: 14px 16px;
+         text-decoration: none;
+         font-family: 'Open Sans Condensed', sans-serif;
+         }
+
+     div.navbar a:hover {
+         background-color: #111;
+         }
+     /**div.navbar li a {
+         background-color: #4CAF50;
+         }**/
+     div.details{
+     	margin-left: 20px;
+     	margin-top: 20px;
+     	font-family: 'Open Sans Condensed', sans-serif;
+     	font-size: 30px;
+     }
+     div.formfill{
+     	margin-left: 10px;
+     	font-family: 'Nunito', sans-serif ;
+     	font-weight: bold;
+        
+     }

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HUMAN , COCKROACH AND NUCLEAR BOMB</title>
+	<link rel="stylesheet" type="text/css" href="task4.css">
+</head>
+<body>
+	<h1>Welcome To THE HUMAN COCKROACH GAME</h1><br>
+    <h3>INSTRUCTION FOR PLAYING THE GAME: </h3>
+    <ol>
+    	<li>The user will be allowed to get a computer generated input By pressing the GENERATE RANDOM INPUT button.</li>
+    	<li>The mapping has been done in following way:{input%3 will be generated}</li>
+    	<li>If remainder is 0,Then it is HUMAN. If remainder is 1,Then it is COCKROACH and If remainder is 2,Then it is NUCLEAR BOMB.</li>
+    	<li>The number should be in range 0-1000</li>
+    	<li>If Object 1 is Human, and object 2 is Cockroach; then the Human Survives</li>
+    	<li>If Object 1 is Cockroach, and object 2 is Nuclear Bomb, then Cockroach survives</li>
+    	<li>If Object 1 is Human, and Object 2 is Nuclear Bomb, then the Human dies.</li>
+    </ol>
+    <label for="num1">OBJECT1:</label><br><br>
+    <input type="number" id="task4_input1" name="num1" disabled>
+    <button id="button1" onclick="getrand_input1()">GENERATE RANDOM INPUT</button><br><br>
+    <label for="num2">OBJECT2:</label><br><br>
+    <input type="number" id="task4_input2" name="num2" disabled>
+    <button id="button2" onclick="getrand_input2()">GENERATE RANDOM INPUT</button><br><br>
+    <input type="submit" id="task4_submit1" name="submit1" onclick="generate_winner()"><br><br>
+    <p id="output1"></p>
+    <p id="output2"></p>
+    <h3 id="after_mapping"></h3>
+    <p id="map1"></p>
+    <p id="map2"></p>
+    <h3 id="winner"></h3>
+
+    
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
